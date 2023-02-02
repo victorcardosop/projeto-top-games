@@ -1,0 +1,156 @@
+:root {
+    --page-font-color: #FFFFFF;
+    --page-font-black: #000000;
+    --header-bg: navy;
+    --menu-button-color: #0A44AA;
+    --first-place-h2-color: gold;
+    --second-place-h2-color: silver;
+    --third-place-h2-color: #BB7D17;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    color: var(--page-font-color);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Unbounded', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spacing {
+    width: 100%;
+    height: 7.5rem;
+    position: fixed;
+
+    background-color: var(--header-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+}
+
+.place {
+    background-color: white;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 0.2rem solid var(--page-font-black);
+}
+
+/* SECTION CONTENT */
+
+.section-content {
+    height: 100%;
+    max-width: 120rem;
+    display: flex;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+}
+
+/* HOME */
+
+#home {
+    background-image: url('../assets/img/home-bg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#home-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    text-shadow: -1px -1px 5px black;
+}
+
+.home-text h2 {
+    text-align: center;
+}
+
+.home-text p {
+    text-align: justify;
+    text-indent: 5rem;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gaming-img {
+    width: 50rem;
+    height: 50rem;
+}
+
+/* FOOTER */
+
+footer {
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--page-font-black);
+    font-size: 2rem;
+}
+
+/* BACK TO TOP */
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--page-font-color);
+
+    width: 5rem;
+    height: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    color: var(--page-font-black);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--page-font-black);
+    font-size: 1.5rem;
+}

@@ -1,0 +1,61 @@
+/* PLACE GENERAL STYLES */
+
+.place-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.place-content .game-position {
+    margin-bottom: 3rem;
+}
+
+.place-content .game-position h2 {
+    font-size: 6rem;
+    text-shadow: -1px -1px 10px black;
+}
+
+.place-content .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 0 2rem;
+    gap: 3rem;
+}
+
+#second .place-content .main-content,
+#fourth .place-content .main-content,
+#sixth .place-content .main-content,
+#eighth .place-content .main-content,
+#tenth .place-content .main-content,
+#MH2 .place-content .main-content {
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.place-content .main-content p {
+    text-shadow: -1px -1px 5px black;
+}   
+
+.place-content .main-content img {
+    border-radius: 2rem;
+    border: 0.2rem solid black;
+}
+
+.place-content .main-content .game-image {
+    display: flex;
+    justify-content: left;   
+}
+
+#second .place-content .main-content .game-image,
+#fourth .place-content .main-content .game-image,
+#sixth .place-content .main-content .game-image,
+#eighth .place-content .main-content .game-image,
+#tenth .place-content .main-content .game-image,
+#MH2 .place-content .main-content .game-image {
+    justify-content: right;
+}
+
+.place-content .main-content .game-description {
+    text-align: justify;
+    text-indent: 5rem;
+    line-height: 4rem;
+}

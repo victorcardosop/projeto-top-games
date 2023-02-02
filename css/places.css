@@ -1,0 +1,90 @@
+/* FIRST PLACE */
+
+#first {
+    background-image: linear-gradient(90deg, #A52D40 0%, #41424E 70%, #F9CF08 100%);
+}
+
+
+#first h2 {
+    color: var(--first-place-h2-color);
+}
+
+/* SECOND PLACE */ 
+
+#second {
+    background-image: linear-gradient(90deg, #38645D 0%, #000000 75%, #FACC6E 100%);
+}
+
+#second h2 {
+    color: var(--second-place-h2-color);
+}
+
+/* THIRD PLACE */ 
+
+#third {
+    background-image: linear-gradient(90deg, #F48406 0%, #082566 15%, #E4AAE4 75%, #111B47 100%);
+}
+
+#third h2 {
+    color: var(--third-place-h2-color);
+}
+
+/* FOURTH PLACE */ 
+
+#fourth {
+    background-image: linear-gradient(90deg, #5F7F74 0%, #1B211F 100%);
+}
+
+/* FIFTH PLACE */ 
+
+#fifth {
+    background-image: linear-gradient(90deg, #504B44 0%, #E7CC8F 50.52%, #9F250E 100%);
+}
+
+/* SIXTH PLACE */ 
+
+#sixth {
+    background-image: linear-gradient(90deg, #323944 0%, #B72006 50.52%, #D8E4FE 100%);
+}
+
+/* SEVENTH PLACE */
+
+#seventh {
+    background-image: linear-gradient(90deg, #FFDF0F 0%, #2264D5 33.33%, #EF0751 66.66%, #7BC662 100%);
+}
+
+/* EIGHTH PLACE */ 
+
+#eighth {
+    background-image: linear-gradient(90deg, #5A0405 0%, #384220 50.52%, #FFB84E 100%);
+}
+
+/* NINTH PLACE */ 
+
+#ninth {
+    background-image: linear-gradient(90deg, #D40E17 0%, #0678FB 50.52%, #339035 100% );
+}
+
+/* TENTH PLACE */
+
+#tenth {
+    background-image: linear-gradient(90deg, #F4BF12 0%, #000000 100%);
+}
+
+/* HONORED MENTION 1 */
+
+#MH1 {
+    background-image: linear-gradient(90deg, #3D2614 0%, #2B3138 50.52%, #000000 100%);
+}
+
+/* HONORED MENTION 2 */
+
+#MH2 {
+    background-image: linear-gradient(90deg, #00011E 0%, #0119BB 50.52%, #FFFFFF 70%, #0B4500 100%);
+}
+
+/* HONORED MENTION 3 */
+
+#MH3 {
+    background-image: linear-gradient(90deg, #323944 0%, #B72006 33.33%, #F8DF60 66.66%, #D8E4FE 100%);
+}

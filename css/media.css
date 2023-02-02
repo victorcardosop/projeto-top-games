@@ -1,0 +1,256 @@
+/* MEDIA */
+
+@media (max-width: 1250px) {
+    .place-content .game-position h2 {
+        font-size: 5rem;
+    }
+
+    .place-content .main-content p {
+        font-size: 2rem;
+    }
+    
+    .home-text p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1130px) {
+    .place-content .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .place-content .main-content .game-image {
+        justify-content: center;
+    }
+
+    #home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        padding: 0 3rem;
+    }
+
+    #first .place-content .main-content,
+    #third .place-content .main-content,
+    #fifth .place-content .main-content,
+    #seventh .place-content .main-content,
+    #ninth .place-content .main-content,
+    #MH1 .place-content .main-content,
+    #MH1 .place-content .main-content {
+        padding: 0 2rem;
+    }
+
+    .place-content {
+        gap: 2rem;
+    }
+
+    .place-content .game-position {
+        margin-bottom: 0rem;
+    }
+
+    .place-content .game-position h2 {
+        font-size: 3rem;
+    }
+
+    .place-content .main-content {
+        gap: 2rem;
+    }
+
+    .place-content .main-content p {
+        font-size: 1.5rem;
+    }
+
+    .place-content .main-content img {
+        width: 23rem;
+        height: 30rem;
+
+    }
+
+    .home-text h2 {
+        font-size: 3rem;
+    }
+    
+    .home-text p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 870px) {
+    #gaming-img {
+        width: 40rem;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .place-content .game-position h2 {
+        font-size: 2.5rem;
+    }
+
+    .place-content .main-content p {
+        font-size: 1.3rem;
+    }
+
+    .home-text h2 {
+        font-size: 2.5rem;
+    }
+    
+    .home-text p {
+        font-size: 1.3rem;
+    }
+
+    .place-content .main-content img {
+        width: 20rem;
+        height: 27rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .logo a img {
+        width: 40rem;
+        padding: 2rem;
+    }
+
+    .spacing {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 700px) {
+    .place-content .main-content .game-image  img {
+        display: inline;
+    }
+}
+
+@media (max-width: 600px) {
+    .place-content .main-content .game-description {
+        line-height: 3rem;
+    }
+
+    .place-content .main-content img {
+        width: 18rem;
+        height: 25rem;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 520px) {
+    #gaming-img {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo a img {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .place-content .game-position h2 {
+        font-size: 2.2rem;
+    }
+
+    .place-content .main-content p {
+        font-size: 1.2rem;
+    }
+
+    .place-content .main-content .game-description {
+        text-indent: 2rem;
+    }
+
+    .home-text h2 {
+        font-size: 2.2rem;
+    }
+    
+    .home-text p {
+        font-size: 1.2rem;
+        text-indent: 2rem;
+    }
+    #gaming-img {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .close-menu-label::after {
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 2rem;
+        height: 2rem;
+
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .place-content .main-content p {
+        font-size: 1em;
+    }
+
+    .home-text p {
+        font-size: 1rem;
+    }
+
+    .place-content .main-content img {
+        width: 15rem;
+        height: 22rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .menu nav ul li a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 370px) {
+    #gaming-img {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .place-content .game-position h2 {
+        font-size: 1.8rem;
+    }
+
+    .home-text h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo a img {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .place-content .main-content img {
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .place-content .main-content .game-description {
+        line-height: 2.6rem;
+    }
+
+    .home-text p {
+        line-height: 2.6rem;
+    }
+}

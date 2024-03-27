@@ -80,11 +80,17 @@
 /* HONORED MENTION 2 */
 
 #MH2 {
-    background-image: linear-gradient(90deg, #3D2614 0%, #2B3138 50.52%, #000000 100%);
+    background-image: linear-gradient(90deg, #758ca5 0%, #4a5364 33.33%, #1d1b27 66.66%, #000000 100%);
 }
 
 /* HONORED MENTION 3 */
 
 #MH3 {
+    background-image: linear-gradient(90deg, #3D2614 0%, #2B3138 50.52%, #000000 100%);
+}
+
+/* HONORED MENTION 4 */
+
+#MH4 {
     background-image: linear-gradient(90deg, #00011E 0%, #0119BB 50.52%, #FFFFFF 70%, #0B4500 100%);
 }

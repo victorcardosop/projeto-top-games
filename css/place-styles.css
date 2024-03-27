@@ -27,7 +27,8 @@
 #sixth .place-content .main-content,
 #eighth .place-content .main-content,
 #tenth .place-content .main-content,
-#MH2 .place-content .main-content {
+#MH2 .place-content .main-content,
+#MH4 .place-content .main-content {
     grid-template-columns: 1.5fr 1fr;
 }
 
@@ -50,7 +51,8 @@
 #sixth .place-content .main-content .game-image,
 #eighth .place-content .main-content .game-image,
 #tenth .place-content .main-content .game-image,
-#MH2 .place-content .main-content .game-image {
+#MH2 .place-content .main-content .game-image,
+#MH4 .place-content .main-content .game-image {
     justify-content: right;
 }
 
